@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="">
+      <source file="StdAfx.cpp" lastModified="143f1dd41f0">
+         <include file="StdAfx.h"/>
+      </source>
+      <source file="hello2.cpp" lastModified="143fce4aed0">
+         <include file="StdAfx.h"/>
+         <sysinclude file="..\..\..\..\..\..\Include\STDLIB.H"/>
+      </source>
+      <source file="StdAfx.h" lastModified="143beafb1f0">
+         <sysinclude file="..\..\..\..\..\..\Include\STDIO.H"/>
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,24 @@
+<project name="hello" default="compile" xmlns:cpptasks="antlib:net.sf.antcontrib.cpptasks">
+ 
+   <property environment="env"/>
+    
+<!--   <echo message = "${env.lib}" /> -->
+   <echo message = "${env.include}" />  
+   
+   
+    <target name="compile" >
+ <!--      <exec executable="cmd" failonerror="true">
+       	<env key="include"  value="${env.ccbuild}"  />
+       	<arg value="/c" />
+       	<arg value="echo %include%"  />       
+       </exec>  -->
+    	
+        <cpptasks:cc  name="msvc" outtype="executable" subsystem="console" outfile="ccrun" 
+        	failonerror="false" rebuild="true" incremental="true"  relentless="true" 
+        	warnings="default" debug="true"  rtti="true" exceptions="true" >      
+        <!--	<env key="include"  value="${env.ccbuild};."  /> -->
+          <fileset dir="." includes="*.cpp"/> 
+        </cpptasks:cc>
+    </target>
+
+</project>

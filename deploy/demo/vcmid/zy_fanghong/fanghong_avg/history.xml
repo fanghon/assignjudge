@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="link /NOLOGO /DEBUG /SUBSYSTEM:CONSOLE /INCREMENTAL:YES">
+      <target file="ccrun.exe" lastModified="1457820e950">
+         <source file="fanghong_avg.obj" lastModified="1457820e950"/>
+         <source file="StdAfx.obj" lastModified="1457820e950"/>
+      </target>
+   </processor>
+   <processor signature="cl /c /nologo /EHsc /Zi /Od /GZ /D_DEBUG /MDd /GR">
+      <target file="fanghong_avg.obj" lastModified="1457820e950">
+         <source file="fanghong_avg.cpp" lastModified="1457814eb00"/>
+      </target>
+      <target file="StdAfx.obj" lastModified="1457820e950">
+         <source file="StdAfx.cpp" lastModified="14577eae530"/>
+      </target>
+   </processor>
+</history>

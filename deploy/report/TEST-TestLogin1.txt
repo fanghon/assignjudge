@@ -1,0 +1,7 @@
+Testsuite: TestLogin1
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.5 sec
+------------- Standard Output ---------------
+D:\fh\projects\deploy\javaassignjudge\.\guitestres.txt
+------------- ---------------- ---------------
+
+Testcase: testTestLogin1 took 4.5 sec

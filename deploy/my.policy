@@ -1,0 +1,12 @@
+/* AUTOMATICALLY GENERATED ON Mon Dec 23 21:57:13 CST 2013*/
+/* DO NOT EDIT */
+
+grant  {
+  permission java.util.PropertyPermission "*", " read,write";
+  permission java.io.FilePermission "./demo/-", "read, write";
+  permission java.lang.RuntimePermission "accessClassInPackage.sun.jdbc.odbc";
+ 
+ /*permission java.security.AllPermission;
+ */
+};
+

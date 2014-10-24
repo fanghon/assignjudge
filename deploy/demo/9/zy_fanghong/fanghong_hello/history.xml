@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="link /NOLOGO /DEBUG /SUBSYSTEM:CONSOLE /INCREMENTAL:YES">
+      <target file="run.exe" lastModified="143f1dd9fb0">
+         <source file="StdAfx.obj" lastModified="143f1dd9fb0"/>
+         <source file="hello2.obj" lastModified="143f1dd9fb0"/>
+      </target>
+      <target file="ccrun.exe" lastModified="148a1791c70">
+         <source file="StdAfx.obj" lastModified="148a1791c70"/>
+         <source file="hello2.obj" lastModified="148a1791c70"/>
+      </target>
+      <target file="hii.exe" lastModified="143bee2ef20">
+         <source file="StdAfx.obj" lastModified="143bee2e750"/>
+         <source file="hello2.obj" lastModified="143bee2e750"/>
+      </target>
+   </processor>
+   <processor signature="cl /c /nologo /EHsc /Zi /Od /GZ /D_DEBUG /MDd /GR">
+      <target file="hello2.obj" lastModified="148a1791c70">
+         <source file="hello2.cpp" lastModified="143fce4aed0"/>
+      </target>
+      <target file="StdAfx.obj" lastModified="148a1791c70">
+         <source file="StdAfx.cpp" lastModified="143f1dd41f0"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,20 @@
+[CodePro v6.1 report, generated Mon Dec 02 14:50:48 CST 2013]
+-------------------------------------------------------------------------------
+OVERALL COVERAGE SUMMARY:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (1/1)	29%  (4/14)!	73%  (97/132)!	56%  (19/34)!	all classes
+
+OVERALL STATS SUMMARY:
+
+total packages:	1
+total classes:	1
+total methods:	14
+total executable files:	1
+total executable lines:	34
+
+COVERAGE BREAKDOWN BY PACKAGE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (1/1)	29%  (4/14)!	73%  (97/132)!	56%  (19/34)!	vehicle.jmi.edu
+-------------------------------------------------------------------------------

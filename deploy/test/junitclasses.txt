@@ -1,0 +1,3 @@
+TestLogin1,10
+TestLogin2,10
+TestQuery,20

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+
+<project name="project" default="junit">
+
+	<property name="run.classpath" value="bin"></property>
+	<property name="run.srcpath" value="src"></property>
+	<property name="test.srcpath" value="test"></property>
+	<property name="test.classpath" value="test"></property>
+    <property name="run.test.classes" value="**/Test*.class"></property> 	
+	<property name="test.report" value="report"></property>
+	<property name="test.junitclass" value=""></property>
+	<property name="lib.dir" value="lib" />
+    <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+
+
+	<path id="compile.path">
+
+		<fileset dir="${lib.dir}">
+
+			<include name="**/*.jar" />
+
+		</fileset>
+
+	</path>
+
+
+
+	<!-- Compilation Classpath <path id="compile.classpath"> <fileset dir="${telecom_LDBS.lib}"> 
+		<include name="**/*.jar"/> </fileset> </path> -->
+
+
+
+	<target name="compile">
+		<javac destdir="${run.classpath}" srcdir="${run.srcpath}" 
+		    debug="on"  nowarn="on"  source="1.6"   target="1.6"
+		    errorProperty="compileError"  failonerror="false"  
+			classpathref="compile.path" />
+<!-- 		<javac destdir="${run.classpath}" srcdir="${test.srcpath}"
+		classpathref="compile.path" />  -->
+	</target>
+
+
+	<target name="junit" >
+		<tstamp />
+		<mkdir dir="${test.report}" />
+		
+		<junit printsummary="true" haltonerror="false" haltonfailure="false" 
+		  		 timeout="15000"  maxmemory="128m" >
+			<classpath>
+				<pathelement path="${run.classpath}" />
+			 	<pathelement path="${test.classpath}" />
+				<fileset dir="${lib.dir}">
+					<include name="**/*.jar" />
+				</fileset>
+				
+			</classpath>
+           
+            <formatter type="plain" />
+             
+			<test fork="yes"  
+				todir="${test.report}"
+				name="${test.junitclass}"></test> 
+
+			
+
+			<!-- she zhi yao ce shi de wen jian ji he . -->
+<!--			<batchtest fork="yes"  
+				todir="${test.report}">
+				 <fileset dir="${test.classpath}"  includes="${run.test.classes}"></fileset> 
+			</batchtest>  -->
+		</junit>
+	</target>
+</project>
+
+ 

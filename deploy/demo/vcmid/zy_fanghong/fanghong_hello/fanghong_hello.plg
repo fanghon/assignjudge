@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: fanghong_hello - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zq\LOCALS~1\Temp\RSP101.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/fanghong_hello.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\FH\ZY_FANGHONG\fanghong_hello\fanghong_hello.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zq\LOCALS~1\Temp\RSP101.tmp" 
+Creating temporary file "C:\DOCUME~1\zq\LOCALS~1\Temp\RSP102.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/fanghong_hello.pdb" /debug /machine:I386 /out:"Debug/fanghong_hello.exe" /pdbtype:sept 
+.\Debug\fanghong_hello.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\zq\LOCALS~1\Temp\RSP102.tmp"
+<h3>Output Window</h3>
+Compiling...
+fanghong_hello.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+fanghong_hello.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

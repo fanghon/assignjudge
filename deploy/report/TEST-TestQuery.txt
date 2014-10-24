@@ -1,0 +1,13 @@
+Testsuite: TestQuery
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.563 sec
+
+Testcase: testTestQuery took 5.563 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at TestQuery.testTestQuery(TestQuery.java:45)
+	at com.windowtester.runtime.common.UITestCaseCommon.access$0(UITestCaseCommon.java:1)
+	at com.windowtester.runtime.common.UITestCaseCommon$2.run(UITestCaseCommon.java:140)
+	at com.windowtester.runtime.common.UITestCaseCommon$3.run(UITestCaseCommon.java:161)
+	at com.windowtester.internal.runtime.junit.core.SequenceRunner$1.run(SequenceRunner.java:50)
+
